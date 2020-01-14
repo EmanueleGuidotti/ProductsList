@@ -1,0 +1,12 @@
+
+
+        <h4>{{title}}</h4>
+        <mat-form-field>
+            <mat-select (selectionChange)="sendValue($event)">
+                <mat-option *ngFor="let vehicle of vehicles" [value]="vehicle.type">
+                    {{vehicle.type}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+
