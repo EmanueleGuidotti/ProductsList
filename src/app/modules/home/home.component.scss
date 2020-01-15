@@ -1,0 +1,18 @@
+h1 {
+  color: #e6ebf1;
+  text-align: center;
+  text-transform: uppercase;
+}
+h4 {
+  color: white;
+}
+.sidebar {
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  height: 100%; width: 100%;
+  align-items: flex-start;
+}
+.content {
+  height: 100%; width: 100%; padding-right: 2em
+}

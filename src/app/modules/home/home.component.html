@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+<mat-grid-list cols="6" rowHeight="600">
+    <mat-grid-tile colspan="2">
+        <div class="sidebar">
+            <mat-grid-list cols="1" >
+                <select-component #SelectData [vehicles]="vehiclesData" [title]="'Select Type'"></select-component>
+                <select-component #SelectModel [vehicles]="vehilcesBrands" [title]="'Select Brand'"></select-component>
+                <select-component #SelectColor [vehicles]="vehiclesColors" [title]="'Select Color'"></select-component>
+            </mat-grid-list>
+        </div>
+
+    </mat-grid-tile>
+    <mat-grid-tile colspan="4">
+        <div class="content">
+            <filtered-list-component [vehicles]="data"></filtered-list-component>
+        </div>
+    </mat-grid-tile>
+</mat-grid-list>
