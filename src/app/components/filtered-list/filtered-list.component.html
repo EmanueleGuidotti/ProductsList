@@ -1,0 +1,9 @@
+<mat-grid-list cols="3" rowHeight="100" md-cols="3" md-gutter="1em">
+    <mat-grid-tile *ngFor="let vehicle of vehicles">
+        <mat-card class="vehicle-item">
+            <img [src]="vehicle.img">
+            <h4 class="type">{{vehicle.type}}</h4>
+            <p class="brand">{{vehicle.brand}}</p>
+        </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>

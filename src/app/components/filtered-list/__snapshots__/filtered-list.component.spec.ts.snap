@@ -1,0 +1,525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilteredListComponent should render all items 1`] = `
+<filtered-list-component
+  cdf={[Function ViewRef_]}
+  vehicles={[Function Array]}
+>
+  <mat-grid-list
+    class="mat-grid-list"
+    cols="3"
+    md-cols="3"
+    md-gutter="1em"
+    rowheight="100"
+  >
+    <div>
+      
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="left: 0px; top: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg/520px-Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg"
+            />
+            <h4
+              class="type"
+            >
+              car
+            </h4>
+            <p
+              class="brand"
+            >
+              Bugatti Veyron
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="top: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/All_Nippon_Airways_Boeing_787-8_Dreamliner_JA801A_OKJ_in_flight.jpg/600px-All_Nippon_Airways_Boeing_787-8_Dreamliner_JA801A_OKJ_in_flight.jpg"
+            />
+            <h4
+              class="type"
+            >
+              airplane
+            </h4>
+            <p
+              class="brand"
+            >
+              Boeing 787 Dreamliner
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="top: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/UP_4466_Neil916.JPG/600px-UP_4466_Neil916.JPG"
+            />
+            <h4
+              class="type"
+            >
+              train
+            </h4>
+            <p
+              class="brand"
+            >
+              USRA 0-6-6
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="left: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/BOAC_C-4_Argonaut_Heathrow_1954.jpg/600px-BOAC_C-4_Argonaut_Heathrow_1954.jpg"
+            />
+            <h4
+              class="type"
+            >
+              airplane
+            </h4>
+            <p
+              class="brand"
+            >
+              Canadair North Star
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/A400M-1969.jpg/600px-A400M-1969.jpg"
+            />
+            <h4
+              class="type"
+            >
+              airplane
+            </h4>
+            <p
+              class="brand"
+            >
+              Airbus A400M Atlas
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Bloch_MB_131_San_Diego_Air_%26_Space_Museum_3.jpg"
+            />
+            <h4
+              class="type"
+            >
+              airplane
+            </h4>
+            <p
+              class="brand"
+            >
+              Bloch MB.131
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="left: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/CFR_Steam_locomotive.jpg/600px-CFR_Steam_locomotive.jpg"
+            />
+            <h4
+              class="type"
+            >
+              train
+            </h4>
+            <p
+              class="brand"
+            >
+              Prairie 2-6-2
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/EMD_GP40_B%26M_339_Wells_Maine.jpg/600px-EMD_GP40_B%26M_339_Wells_Maine.jpg"
+            />
+            <h4
+              class="type"
+            >
+              train
+            </h4>
+            <p
+              class="brand"
+            >
+              EMD GP40
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/440woodcut.jpg/600px-440woodcut.jpg"
+            />
+            <h4
+              class="type"
+            >
+              train
+            </h4>
+            <p
+              class="brand"
+            >
+              Amer 4-4-0
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="left: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/F40_Ferrari_20090509.jpg/1920px-F40_Ferrari_20090509.jpg"
+            />
+            <h4
+              class="type"
+            >
+              car
+            </h4>
+            <p
+              class="brand"
+            >
+              Ferrari F40
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2014-03-04_Geneva_Motor_Show_1379.JPG/440px-2014-03-04_Geneva_Motor_Show_1379.JPG"
+            />
+            <h4
+              class="type"
+            >
+              car
+            </h4>
+            <p
+              class="brand"
+            >
+              Lamborghini Huracán
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_%28July_2008%29.jpg/440px-Porsche_Carrera_GT_-_Goodwood_Breakfast_Club_%28July_2008%29.jpg"
+            />
+            <h4
+              class="type"
+            >
+              car
+            </h4>
+            <p
+              class="brand"
+            >
+              Porsche Carrera GT
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+    </div>
+  </mat-grid-list>
+</filtered-list-component>
+`;
+
+exports[`FilteredListComponent should render only red items 1`] = `
+<filtered-list-component
+  cdf={[Function ViewRef_]}
+  vehicles={[Function Array]}
+>
+  <mat-grid-list
+    class="mat-grid-list"
+    cols="3"
+    md-cols="3"
+    md-gutter="1em"
+    rowheight="100"
+  >
+    <div>
+      
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="left: 0px; top: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg/520px-Bugatti_Veyron_16.4_%E2%80%93_Frontansicht_%281%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg"
+            />
+            <h4
+              class="type"
+            >
+              car
+            </h4>
+            <p
+              class="brand"
+            >
+              Bugatti Veyron
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="top: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/All_Nippon_Airways_Boeing_787-8_Dreamliner_JA801A_OKJ_in_flight.jpg/600px-All_Nippon_Airways_Boeing_787-8_Dreamliner_JA801A_OKJ_in_flight.jpg"
+            />
+            <h4
+              class="type"
+            >
+              airplane
+            </h4>
+            <p
+              class="brand"
+            >
+              Boeing 787 Dreamliner
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="top: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/BOAC_C-4_Argonaut_Heathrow_1954.jpg/600px-BOAC_C-4_Argonaut_Heathrow_1954.jpg"
+            />
+            <h4
+              class="type"
+            >
+              airplane
+            </h4>
+            <p
+              class="brand"
+            >
+              Canadair North Star
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="left: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/A400M-1969.jpg/600px-A400M-1969.jpg"
+            />
+            <h4
+              class="type"
+            >
+              airplane
+            </h4>
+            <p
+              class="brand"
+            >
+              Airbus A400M Atlas
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/CFR_Steam_locomotive.jpg/600px-CFR_Steam_locomotive.jpg"
+            />
+            <h4
+              class="type"
+            >
+              train
+            </h4>
+            <p
+              class="brand"
+            >
+              Prairie 2-6-2
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/440woodcut.jpg/600px-440woodcut.jpg"
+            />
+            <h4
+              class="type"
+            >
+              train
+            </h4>
+            <p
+              class="brand"
+            >
+              Amer 4-4-0
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+      <mat-grid-tile
+        class="mat-grid-tile"
+        style="left: 0px;"
+      >
+        <figure
+          class="mat-figure"
+        >
+          <mat-card
+            class="vehicle-item mat-card"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/F40_Ferrari_20090509.jpg/1920px-F40_Ferrari_20090509.jpg"
+            />
+            <h4
+              class="type"
+            >
+              car
+            </h4>
+            <p
+              class="brand"
+            >
+              Ferrari F40
+            </p>
+          </mat-card>
+        </figure>
+      </mat-grid-tile>
+    </div>
+  </mat-grid-list>
+</filtered-list-component>
+`;
